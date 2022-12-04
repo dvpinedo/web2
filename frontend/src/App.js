@@ -74,7 +74,7 @@ function App() {
   return (
     <>
       <Container>
-        
+
         <Title>Materia</Title>
         <FormMat onEdit={onEdit} setOnEdit={setOnEdit} getMats={getMats} />
         <GridMat setOnEdit={setOnEdit} mats={mats} setMats={setMats} />
@@ -84,6 +84,7 @@ function App() {
         <Grid setUserEdit={setUserEdit} users={users} setUsers={setUsers}/>
 
         <Title>Carrera</Title>
+        
         <FormCar carEdit={carEdit} setCarEdit={setCarEdit} getCars={getCars}/>
         <GridCar setCarEdit={setCarEdit} cars={cars} setCars={setCars} />
         
