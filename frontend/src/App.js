@@ -74,6 +74,7 @@ function App() {
   return (
     <>
       <Container>
+        
         <Title>Materia</Title>
         <FormMat onEdit={onEdit} setOnEdit={setOnEdit} getMats={getMats} />
         <GridMat setOnEdit={setOnEdit} mats={mats} setMats={setMats} />
