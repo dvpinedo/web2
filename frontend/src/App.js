@@ -76,11 +76,12 @@ function App() {
       <Container>
 
         <Title>Materia</Title>
+        
         <FormMat onEdit={onEdit} setOnEdit={setOnEdit} getMats={getMats} />
         <GridMat setOnEdit={setOnEdit} mats={mats} setMats={setMats} />
 
         <Title>Usuario</Title>
-        
+
         <Form userEdit={userEdit} setOnEdit={setOnEdit} getMats={getMats}/>
         <Grid setUserEdit={setUserEdit} users={users} setUsers={setUsers}/>
 
